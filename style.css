@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/background1.jpeg");
+}
+
+
+ /********************* HEADER SECTION  **********************/
+
+header{
+    background: linear-gradient(90deg, #0D523F, #125577);
+    color: white;
+    padding: .7rem 1.7rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+header section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header__content{
+    font-size: 20px;
+}
+
+/*  header section  */
+
+.button {
+    padding: 1rem;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    color: #125577;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+ /********************* BODY SECTION  **********************/
+
+ .grey__shade__bg{
+    background-image: url("images/background1.jpeg");
+ }
+
+ .green__shade__bg{
+    margin-top: 5rem;
+    background: linear-gradient(90deg, #0D523F, #125577);
+    background-size: contain;
+    padding: 4.2rem 0;
+ }
+
+.container1{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.hero__section{
+    /* background-image: url("images/background1.jpeg"); */
+    background-size: contain;
+}
+
+.hero__section .logo{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero__section h1{
+    font-size: 46px;
+    padding: 0 1rem;
+    text-align: center;
+    text-transform:capitalize;
+}
+
+.h1__intro{
+    color:#0D523F;
+}
+
+.h1__intro2{
+    color:#125577;
+}
+
+.hero__last-intro h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 2rem 2rem;
+    font-size: 24px;
+    text-align: center;
+}
+
+.image_section{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.image_section figure img{
+    width: 170px;
+    height: 250px;
+}
+
+.second__section{
+    margin-top: 2rem;
+}
+
+.second__section h2{
+    padding: 1rem;
+    font-size: 34px;
+    text-align: center;
+    font-style: italic;
+}
+
+.user_manual{
+    margin-top: -10px;
+    margin-bottom: 3rem;
+}
+
+.form__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    gap: 1rem;
+}
+
+.form__section h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.dark__fonts{
+    font-weight: bolder;
+}
+
+.form__section iframe{
+    border-radius: 20px;
+}
+
+.form__section form {
+    text-align: center;
+    padding: 1rem;
+    width: 85vw;
+}
+
+.form__section form input{
+    padding: 1rem;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 1.3rem;
+    border: 2px solid #3a8330;
+    border-radius: 10px;
+}
+
+input[type='submit']{
+    background: linear-gradient(90deg, #3a8330, #91ba24);
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+
+
+.points__section h2{
+    padding: 1rem;
+    font-size: 34px;
+    color:#eeefed;
+    text-align: center;
+}
+
+.background__green{
+    background-color: #125577;
+    padding: .2rem;
+    border-radius: 10px;
+}
+
+.points__section .tick__conatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick__conatiner div{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 70%;
+}
+
+.tick__conatiner div i{
+    margin-right: 10px;
+    color: #125577;
+}
+
+
+
+.review__section h3{
+    margin-top: 4rem;
+    font-size: 32px;
+    text-align: center;
+}
+
+.review__section div{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    gap: 1rem;
+}
+
+
+
+.stories__section h3{
+    margin-top: 4rem;
+    font-size: 34px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.stories__section div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.stories__section div iframe{
+    border-radius: 10px;
+}
+
+
+
+.last__text__section{
+    margin-top: 4rem;
+      background: linear-gradient(90deg, #0D523F, #125577);
+       padding: 2rem;
+       height: 40vh;
+}
+
+.last__text__section h3{
+    padding: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    border: 10px  dashed;
+}
+
+.last__text__section div{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+.faq__section{
+    margin-top: 4rem;
+}
+
+.faq__section h3{
+    font-size: 34px;
+    text-align: center;
+}
+
+.faq__section div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.faq__section div details{
+    border: 1px solid rgb(226, 226, 226);
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: 20px 20px 20px 5px rgb(231, 231, 231);
+}
+
+.faq__section summary{
+    color: #0D523F;
+    text-transform:uppercase;
+}
+
+.faq__section details p{
+    font-weight: 500;
+    margin-top: 2rem;
+    line-height: 1.4rem;
+}
+
+
+/* Floating icons container */
+.floating-icons {
+    position: fixed;
+    bottom: 90px; /* Adjust distance from bottom */
+    right: 20px;  /* Adjust distance from right */
+    z-index: 1000;
+}
+
+.floating-icons i {
+    
+}
+
+/* Style for each icon */
+.icon {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin: 5px 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+/* Hover effects */
+.icon:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* Add space between icons */
+.icon + .icon {
+    margin-top: 0px;
+}
+
+.facebook{
+    background-color: rgb(58, 58, 250);
+}
+.instagram{
+    background-color: rgb(254, 8, 119);
+}
+.whatsapp{
+    background-color: #3a8330;
+}
+.message{
+    background-color: black;
+}
+.phone{
+    background-color: rgb(10, 202, 55);
+}
+.youtube{
+    background-color: red;
+}
+
+
+/********************* FOOTER SECTION *********************/
+footer{
+    margin: 3rem 0 0 0;
+    padding: 1.5rem;
+        background: linear-gradient(90deg, #0D523F, #125577);
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+
+@media only screen and (max-width:1080px){
+    header section {
+        justify-content: center;
+    }
+
+    header section .button{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width:580px){ 
+
+    .container1{
+        width: 99%;
+    }
+
+    .logo img{
+        height: 150px;
+        width: 130px;
+    }
+
+    .hero__section h1 {
+        margin-top: -15px;
+        font-size: 20px;
+    }
+
+    .hero__last-intro h2{
+        margin-top: -20px;
+        font-size: 12px !important;
+    }
+
+    .form__section iframe{
+        width: 100%;
+    }
+
+    header section{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* .second__section h2{
+        margin-top: -50px;
+    } */
+
+    .second__section{
+        margin-top: 0;
+    }
+    
+    .second__section h2{
+        font-size: 24px;
+    }
+
+    .h1__intro{
+        font-size: 20px;
+    }
+
+    .h1__intro2{
+        font-size: 20px;
+    }
+
+    .points__section h2 {
+        font-size: 29px;
+    }
+
+    .tick__conatiner div{
+        padding: .6rem;
+    }
+
+    .tick__conatiner div span{
+        font-size: 14px !important;
+    }
+
+    .form__section h3{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .user_manual{
+        margin-top: 10px !important;
+    }
+
+    .form__section form input{
+        width: 60% !important;
+    }
+
+    .green__shade__bg{
+        padding: 1.2rem;
+        background-size: cover;
+    }
+
+    #btn {
+        padding: .5rem;
+        background-color: #fbfbfb;
+        border-radius: 10px;
+        color: #3a8330;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .stories__section h3{
+        font-size: 22px;
+    }
+
+    iframe{
+        width: 80vw;
+    }
+
+    .last__text__section h3{
+        font-size: 20px !important;
+        border: 2px dashed white;
+    }
+
+    .faq__section h3{
+        font-size: 22px !important;
+    }
+
+    .faq__section summary{
+        font-size: 14px;
+    }
+
+    .review__section div{
+        flex-wrap: wrap;
+    }
+
+    .review__section div figure img{
+        width: 100%;
+    }
+
+    .last__text__section{
+        height: auto;
+    }
+    
+    .last__text__section h3{
+        font-size: 28px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}
